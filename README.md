@@ -27,7 +27,7 @@
   "nama": "kelompok2",
   "id-buku": "bk01",
   "tgl-peminjaman": "2022-12-12",
-  "masa-pinjam": "7 hari"
+  "masa-pinjam": "7 Hari"
 }
 ```
 
@@ -84,7 +84,7 @@
 <table>
 <tr>
     <td> URL </td>
-    <td> {{baseURL}}/api/v1/pinjam-buku </td>
+    <td> {{baseURL}}/api/v1/pinjam-buku?id={id} </td>
 </tr>
 <tr>
     <td> EXAMPLE </td>
@@ -110,7 +110,7 @@
 ```json
 {
   "code": 200,
-  "message": "Data Peminjaman Berhasil diinput",
+  "message": "Data berhasil didapatkan",
   "data": {
     "nama": "kelompok2",
     "tgl-peminjaman": "2022-12-12",
@@ -188,7 +188,7 @@
   "data": {
     "id": 1234,
     "nama": "kelompok3",
-    "tgl-peminjaman": "Bogor",
+    "tgl-peminjaman": "2022-12-12",
     "masa-pinjam": "7 Hari"
   }
 }
@@ -238,7 +238,7 @@
 </table>
 </details>
 
-### Delete Mahasiswa (DELETE)
+### Delete Peminjaman Buku (DELETE)
 
 <details>
 <summary> Klik untuk ekspand </summary>
@@ -246,7 +246,7 @@
 <table>
 <tr>
     <td> URL </td>
-    <td> {{baseURL}}/api/v1/pinjam-buku </td>
+    <td> {{baseURL}}/api/v1/pinjam-buku?id={id} </td>
 </tr>
 <tr>
     <td> EXAMPLE </td>
